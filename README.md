@@ -1,6 +1,13 @@
 # Projects
 Projects I have completed
 
-The Weather App tells you the weather, humidity, and wind speed for whichever valid city you search. It uses the Open WeatherMap api. 
+Weather Site
+A small full-stack web application utilizing JavaScript,HTML,CSS, and web API’s. Site allows you to check the current weather of any city you search. 
+Background also will change to an image associated with that city.
 
-The TicTacToe site is a game of TicTacToe.
+Tic Tac Toe
+A classic game of Tic Tac Toe. Created using Javascript, HTML, and CSS. Game allows you to play a game of Tic Tac Toe. If the game ends in a draw you are
+notified and can even start a new game.
+
+Animal Matching Game
+A matching game that lets you win by succesfully matching the same images of the animals together. Created using HTML,CSS, & Javascirpt. 
