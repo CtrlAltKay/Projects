@@ -1,0 +1,51 @@
+# Sword Axe Lance Game
+
+Web-based game built with HTML, CSS, and JavaScript, where the player chooses a weapon (Sword, Axe, or Lance) to compete against the computer. 
+The game uses the weapon triangle mechanic from Fire Emblem.
+
+## Features
+
+- **Weapon Selection**: Players can choose between Sword, Axe, and Lance.
+- **Dynamic Character Images**: Character images change based on the chosen weapon.
+- **Random Opponent Choice**: The computer selects a weapon at random.
+- **Game Result**: Displays the result of the match (Win, Lose, or Tie).
+- **Score Tracking**: Keeps track of the player's and computer's scores.
+
+Character Portraits were taken from:
+https://github.com/Klokinator/FE-Repo/tree/main
+
+## Project Structure
+
+```plaintext
+/
+├── images/
+│   ├── axe/
+│   │   ├── Cherche.png
+│   │   ├── Frederick.png
+│   │   ├── Hilda.png
+│   │   ├── Camilla.png
+│   │   └── Edelgard.png
+│   ├── lance/
+│   │   ├── Dimitri.png
+│   │   ├── Ingrid.png
+│   │   ├── Lukas.png
+│   │   ├── Nephenee.png
+│   │   └── Oscar.png
+│   └── sword/
+│       ├── Chrom.png
+│       ├── Felix.png
+│       ├── Ike.png
+│       ├── Lucina.png
+│       └── Roy.png
+├── index.html
+├── script.js
+└── styles.css
+
+
+Installation
+
+Clone this repository to your local machine:
+bash
+
+git clone https://github.com/yourusername/sword-axe-lance-game.git
+
