@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sword Axe Lance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="titleBar">
+    <h1>Sword<br> Axe<br> Lance</h1>
+  </div>
+  <div class="areaDisplay">
+    <div class="scoreRow">
+      <div class="playerSection">
+        <div id="playerDisplay">Player:</div>
+        <div class="scoreDisplay">Score:
+          <span id="playerScoreDisplay">0</span>
+      </div>
+        <div class="characterImage" id="playerImage">
+          <img src="images/fireemblem.png" alt="Player Character">
+        </div>
+      </div>
+      <div class="computerSection">
+        <div id="computerDisplay">Computer:</div>
+        <div class="scoreDisplay">Score:
+          <span id="computerScoreDisplay">0</span>
+      </div>
+        <div class="characterImage" id="computerImage">
+          <img src="images/fireemblem.png" alt="Computer Character">
+        </div>
+      </div>
+    </div>
+    <div id="resultDisplay"></div>
+  </div>
+
+  <div class="gameArea">
+    <button onclick="playGame('Sword')" class="weaponButton">
+      <img src="images/sword.png" class="weapon-image">
+    </button>
+    <button onclick="playGame('Axe')" class="weaponButton">
+      <img src="images/axe.png" class="weapon-image">
+    </button>
+    <button onclick="playGame('Lance')" class="weaponButton">
+      <img src="images/lance.png" class="weapon-image">
+    </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
